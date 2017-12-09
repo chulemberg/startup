@@ -2,4 +2,54 @@
   margin: 0;
   padding: 0; }
 
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px; }
+
+header {
+  background: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.barra-navegacion {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 20px 0; }
+
+.menu {
+  line-height: 50px; }
+  .menu a {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 60px; }
+
+.textos {
+  color: #fff;
+  margin: 200px 0;
+  text-align: center; }
+  .textos a {
+    color: #fff; }
+  .textos .primera-linea {
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 30px; }
+  .textos .segunda-linea {
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 60px; }
+  .textos .contenedor-btns a {
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: 600;
+    margin: 0 10px;
+    padding: 12px 0;
+    width: 235px;
+    text-decoration: none; }
+    .textos .contenedor-btns a:hover {
+      background: #ffffff;
+      color: black; }
+
 /*# sourceMappingURL=estilos.css.map */

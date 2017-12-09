@@ -10,7 +10,7 @@ header {
   background: url(../img/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center 0; }
 
 .barra-navegacion {
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
@@ -51,5 +51,153 @@ header {
     .textos .contenedor-btns a:hover {
       background: #ffffff;
       color: black; }
+
+.main .caracteristicas {
+  padding: 70px 0; }
+  .main .caracteristicas .titulo-car {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    text-align: center; }
+  .main .caracteristicas .cuadro {
+    text-align: center; }
+    .main .caracteristicas .cuadro img {
+      margin-bottom: 30px; }
+    .main .caracteristicas .cuadro .titulo {
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 10px;
+      margin-bottom: 30px; }
+    .main .caracteristicas .cuadro .parrafo {
+      line-height: 28px;
+      margin-bottom: 30px; }
+.main .fotos {
+  padding: 70px 0; }
+  .main .fotos .thumb .titulo {
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 70px;
+    margin-bottom: 40px; }
+  .main .fotos .thumb .azul {
+    color: #4facd3; }
+  .main .fotos .thumb .parrafo {
+    line-height: 28px; }
+  .main .fotos .thumb .naranja {
+    color: #ddb146; }
+.main .clientes {
+  background: #2d353e;
+  padding: 40px 0; }
+  .main .clientes .titulo {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px; }
+.main .precios {
+  background: url(../img/precios-bg.jpg);
+  background-position: center 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 70px 0; }
+  .main .precios .titulo {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 70px; }
+  .main .precios .tarjeta {
+    padding: 50px 0; }
+    .main .precios .tarjeta.verde {
+      background: #ffffff;
+      color: #86b773; }
+      .main .precios .tarjeta.verde a.boton-tarjeta {
+        color: #86b773;
+        border: 2px solid #86b773; }
+        .main .precios .tarjeta.verde a.boton-tarjeta:hover {
+          color: #ffffff;
+          background: #86b773; }
+      .main .precios .tarjeta.verde .caract {
+        color: #000000; }
+    .main .precios .tarjeta.azul {
+      background: #4c8dce;
+      color: #ffffff; }
+      .main .precios .tarjeta.azul a.boton-tarjeta {
+        color: #ffffff;
+        border: 2px solid #ffffff; }
+        .main .precios .tarjeta.azul a.boton-tarjeta:hover {
+          color: #4c8dce;
+          background: #ffffff; }
+      .main .precios .tarjeta.azul .caract {
+        color: #ffffff; }
+    .main .precios .tarjeta.naraja {
+      background: #ffffff;
+      color: #ddb146; }
+      .main .precios .tarjeta.naraja a.boton-tarjeta {
+        color: #ddb146;
+        border: 2px solid #ddb146; }
+        .main .precios .tarjeta.naraja a.boton-tarjeta:hover {
+          color: #ffffff;
+          background: #ddb146; }
+      .main .precios .tarjeta.naraja .caract {
+        color: #000000; }
+    .main .precios .tarjeta .nombre {
+      font-size: 32px;
+      font-weight: 300;
+      margin-bottom: 30px;
+      text-align: center; }
+    .main .precios .tarjeta .precio {
+      font-size: 48px;
+      font-weight: 300;
+      margin-bottom: 30px;
+      text-align: center; }
+    .main .precios .tarjeta .detalles {
+      list-style: none;
+      padding: 0 20px;
+      margin-bottom: 50px; }
+      .main .precios .tarjeta .detalles .caract {
+        font-size: 18px;
+        font-weight: 400;
+        border-bottom: 1px solid #dedede;
+        padding: 15px 0;
+        text-align: center; }
+    .main .precios .tarjeta .boton-tarjeta {
+      font-weight: 400;
+      padding: 15px 0;
+      width: 252px;
+      border-radius: 100px; }
+.main .reviews {
+  padding: 70px 0; }
+  .main .reviews .titulo {
+    font-size: 32px;
+    font-weight: 300;
+    color: #4c8dce;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    text-align: center; }
+  .main .reviews .cliente {
+    margin-bottom: 20px; }
+    .main .reviews .cliente .review {
+      margin-top: 20px; }
+    .main .reviews .cliente .foto img {
+      border-radius: 100%; }
+    .main .reviews .cliente .texto {
+      font-size: 18px;
+      line-height: 28px;
+      margin-bottom: 10px; }
+    .main .reviews .cliente .nombre {
+      color: #ddb146;
+      font-size: 14px;
+      margin-bottom: 10px; }
+
+.right-block {
+  display: block;
+  margin-right: 0;
+  margin-left: auto; }
+
+.left-block {
+  display: block;
+  margin-right: auto;
+  margin-left: 0; }
 
 /*# sourceMappingURL=estilos.css.map */
